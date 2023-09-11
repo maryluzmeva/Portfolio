@@ -2,10 +2,13 @@
     --primary-color: #6c63ff;
     --secondary-color: #f5f2fe;
     --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    --heading-font-family: "Playfair Display", serif;
+    --default-font-family: "Poppins", sans-serif;
   }
   
   body {
     margin-top: 100px;
+    font-family: var(--default-font-family);
   }
   
   h1,
@@ -33,15 +36,35 @@
   }
 
   .hero {
-    background: #f4eeff;
+    background: var(--secondary-color);
     text-align: center;
-  }
-
-  .hero p{
-    font-weight: bold;
-    font-size:36px;
+    padding: 160px 20px;
   }
   
+  .hero p {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
+    color: #272142;
+  }
+  
+  .hero h2 {
+    font-family: var(--heading-font-family);
+    font-weight: normal;
+    line-height: 2;
+    font-size: 24px;
+  }
+  
+  .btn-branding {
+    background: var(--primary-color);
+    border-radius: 4px;
+    color: white;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 15px 30px;
+  }
+  
+ 
   .navigation-links {
     display: flex;
     margin-top: 40px;
