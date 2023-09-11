@@ -31,6 +31,16 @@
     font-size: 18px;
     line-height: 1.5;
   }
+
+  .hero {
+    background: #f4eeff;
+    text-align: center;
+  }
+
+  .hero p{
+    font-weight: bold;
+    font-size:36px;
+  }
   
   .navigation-links {
     display: flex;
