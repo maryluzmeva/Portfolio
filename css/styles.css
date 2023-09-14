@@ -10,12 +10,7 @@
     margin-top: 100px;
     font-family: var(--default-font-family);
   }
-  
-  h1,
-  h2,
-  h3 {
-    margin: 0;
-  }
+
   
   h1 {
     font-size: 96px;
@@ -43,7 +38,6 @@
   
   .hero p {
     font-size: 36px;
-    font-weight: bold;
     margin: 0;
     color: #272142;
   }
@@ -64,7 +58,6 @@
     padding: 15px 30px;
   }
   
- 
   .navigation-links {
     display: flex;
     margin-top: 40px;
@@ -100,12 +93,18 @@
     display: block;
   }
   
+  .hero-about {
+      background: var(--secondary-color);
+      text-align: center;
+      padding: 160px 20px;
+  }
   .about-paragraphs {
     margin: 30px 0;
   }
   
   .about-paragraphs p {
     margin: 10px;
+    font-size: 25px;
   }
   
   .email-link {
@@ -120,3 +119,12 @@
     text-decoration: underline;
   }
   
+  .btn-info {
+    text-align: center;
+    display:block;
+  }
+  .hero-contact {
+    background: var(--secondary-color);
+    text-align: center;
+    padding: 160px 20px;
+  }
