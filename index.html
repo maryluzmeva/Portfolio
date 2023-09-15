@@ -7,17 +7,8 @@
     <meta name="description" content="Front End Developer based in Germany. Professional Portfolio"/>
     <title>Maryluz Mendez Vargas</title>
     <link rel="stylesheet" href="/css/styles.css" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
-      crossorigin="anonymous"
-    />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
-      crossorigin="anonymous"
-    ></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/c35c66b400.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -59,60 +50,61 @@
       </div>
     </nav>
     <div class="hero">
-      <h2 class="text-center">👋 Hello World, I'm</h2>
-      <h1 class="text-center">Maryluz Méndez Vargas</h1>
-      <h3 class="text-center">Front-end developer based in Germany</h3>
-      <div class="navigation-links mb-5">
-        <a href="/about.html#contact" class="primary-link" title="Contact Maryluz Mendez Vargas">Contact Me</a>
-        <a href="/about.html" class="secondary-link" title="about Maryluz Mendez Vargas">About Me</a>
+      <p>👋 Hello World, I am</p>
+      <h1>Maryluz Mendez Vargas</h1>
+      <h2 class="mb-5">Front-end developer based in Germany</h2>
+      <div>
+        <a href="/contact.html" class="btn btn-branding">Contact me</a>
       </div>
     </div>
+    <p class="text-center m-5">
+      Featured Project
+    </p>
     <div class="container">
-      <br />
+      <div class="row mb-5">
+        <div class="col d-none d-lg-block">
+          <img src="images/jewelrypage.png" class="img-fluid" alt="jewerly for women" />
+        </div>
+        <div class="col">
+          <div class="project-desciption">
+            <h2 class="mb-5">Landing Page</h2>
+            <p class="mb-5 text-muted">
+              Page about my favorite Hobby and my small business. In my spare time, I create Handmade Jewelry that I sell online.
+              Most of my items I sell through a Marketplace Platform but I want to create a Landind Page to promote my works easier
+              in the main Social Networks.
+            </p>
+            <a href="https://kurylaky-handmade.netlify.app/" class="btn btn-branding-outline"> Learn more </a>
+          </div>
+        </div>
+      </div>
+      <div class="row mb-5">
+        <div class="col">
+          <div class="project-desciption">
+            <h2 class="mb-5">Weather App</h2>
+            <p class="mb-5 text-muted">
+              Weather App that shows the Current Location Weather and the 5 Days Forecast.
+              Web App easy to use and really accurate. My first project using API.
+            </p>
+            <a href="https://kurylakyweather.netlify.app/" class="btn btn-branding-outline"> Learn more </a>
+          </div>
+        </div>
+        <div class="col d-none d-lg-block">
+          <img src="images/weather.png" class="img-fluid" alt="weather forecast" />
+        </div>
+      </div>
       <div class="row">
-        <div class="col-6">
-          <img src="/images/jewelrypage.png" alt="women handmade jewelry" class="img-fluid rounded" />
+        <div class="col d-none d-lg-block">
+          <img src="images/worldclock.png" class="img-fluid" alt="world clock with Timezones" />
         </div>
-        <div class="col-6">
-          <h2 class="mb-3">Landing Page</h2>
-          <p>
-           Is my first landing page, created as part of my first Coding Course.
-           This page was created with <strong>HTML, CSS and JavaScript</strong>.
-          </p>
-          <div class="mt-5">
-            <a href="https://kurylaky-handmade.netlify.app/" target="_blank" class="primary-link">Learn more</a>
-          </div>
-        </div>
-      </div>
-      <div class="row mt-5">
-        <div class="col-6">
-          <h2 class="mb-3">Weather app</h2>
-          <p>
-            Web Weather App created with <strong>HTML,CSS and JavaScript</strong>.
-            The current weather and 5 Days Forecast being provided by SheCodes Weather API.
-            Default get your "current Location", but can also use the search function to look for another locations.
-          </p>
-          <div class="mt-5">
-            <a href="https://kurylakyweather.netlify.app/" target="_blank" class="primary-link">Learn more</a>
-          </div>
-        </div>
-        <div class="col-6">
-          <img src="/images/weather.png" alt="weather" class="img-fluid rounded" />
-        </div>
-      </div>
-      <div class="row mt-5">
-        <div class="col-6">
-          <img src="/images/worldclock.png" alt="world clock timezones" class="img-fluid rounded" />
-        </div>
-        <div class="col-6">
-          <h2 class="mb-3">Clock App</h2>
-          <p>
-           World Clock with Timezones. Give the current time in your Location and some other locations by default.
-           Created with <strong>HTML, CSS and JavaScript</strong>
-           The data is provided by Moment.js 
-          </p>
-          <div class="mt-5">
-            <a href="https://kurylaky-worldclock.netlify.app/" target="_blank" class="primary-link">Learn more</a>
+        <div class="col">
+          <div class="project-desciption">
+            <h2 class="mb-5">Clock App</h2>
+            <p class="mb-5 text-muted">
+             Clock Web App with the Current City Time and some other Default cities and Timezones.
+             First time using Moment.js and some mathematical operations in JavaScript. Is the first 
+             most complex web app that I create.
+            </p>
+            <a href="https://kurylaky-worldclock.netlify.app/" class="btn btn-branding-outline"> Learn more </a>
           </div>
         </div>
       </div>
