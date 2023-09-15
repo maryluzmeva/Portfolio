@@ -1,6 +1,6 @@
 :root {
-  --branding-color: #6c63ff;
-  --secondary-color: #f9f7fe;
+  --branding-color: #ff8fab;
+  --secondary-color: #ffb3c6;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
 }
@@ -45,7 +45,6 @@ p {
   font-size: 36px;
   font-weight: bold;
   margin: 0;
-  color: #272142;
 }
 
 .hero h2 {
@@ -131,3 +130,8 @@ p {
   }
 }
 
+.social-networks {
+  font-size: 20px;
+  display:block;
+  margin-bottom: 8px;
+}
