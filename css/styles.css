@@ -139,7 +139,7 @@ ul {
   }
 
   .hero {
-    padding: 80px 20px;
+    padding: 140px 20px;
   }
 
   .content {
@@ -151,10 +151,14 @@ ul {
     padding: 0;
     text-align: center;
   }
-}
 
-.social-networks {
+  .content-title {
+    padding: 140px 20px;
+  }
+
+  .social-networks {
   font-size: 20px;
   display:block;
   margin-bottom: 8px;
+}
 }
