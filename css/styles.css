@@ -35,6 +35,11 @@ p {
   line-height: 30px;
 }
 
+ul {
+  list-style-type: none;
+  line-height: 2;
+}
+
 .hero {
   background-image: url(/images/hero.png);
   background-repeat: no-repeat;
